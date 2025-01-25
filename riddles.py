@@ -118,4 +118,4 @@ def snowflake():
             score.pop(score.index('снежинка'))
         else:
             console.print('[red]Неправильно! Попробуй ещё раз![/red]')
-            users_answer = (input('Введите позицию снежинки:'))
+            users_answer = (input('Введите позицию снежинки (пример: 2.23 (2 ряд 23 колонка)):'))
